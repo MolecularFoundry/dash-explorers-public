@@ -17,5 +17,5 @@ print(args.environment)
 app = create_app(args.environment)
 
 if __name__ == '__main__':
-     print(f'Available at {app.config["redirect_uri"].replace("/auth", "")}')
+     print(f'Available at {app.config["redirect_uri"].replace("/dash/auth", "/datasets")}')
      app.run(port=app.config['port'], host='0.0.0.0', ssl_context = "adhoc")

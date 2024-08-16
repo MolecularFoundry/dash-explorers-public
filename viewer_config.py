@@ -14,5 +14,8 @@ viewer_data_format_map = {
                         },
                         "dvs_viewer": {
                             "data_format":'xls'
-                        }
+                        }#,
+                        # "afm_viewer": {
+                        #     "data_format":"ibw"
+                        # }
                     }

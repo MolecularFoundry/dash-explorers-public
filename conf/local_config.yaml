@@ -1,4 +1,4 @@
-redirect_uri: "https://<your-ip>:<port>/dash/auth"
-port:
+redirect_uri: "https://127.0.0.1:5000/dash/auth"
+port: 5000
 gcs_client_id:
 gcs_project_number: 
